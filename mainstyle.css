@@ -1,9 +1,17 @@
 * {
     font-family: "League Spartan", sans-serif;
+    text-align: center;
     color: black;
 }
 
 h1 {
-    text-align: center;
     font-size: 5em;
+}
+
+img {
+    margin: auto; display: block;
+}
+
+p {
+    margin-left: 24em; margin-right: 24em;
 }
