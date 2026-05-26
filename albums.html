@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Fraser's Albums</title>
-<link rel="stylesheet" href="mainstyle.css">
-<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <title>Fraser's Albums</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <script src="albums.js"></script>
 </head>
 <body>
-
+    <h1 class="album-heading">Albums</h1>
+    <form>
+        <input type="text" placeholder="Album name" class="input-text">
+        <input type="text" placeholder="Artist" class="input-text">
+        <button onclick="getAlbums()">Add Album</button>
+    </form>
 </body>
 </html> 
